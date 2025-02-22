@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phiếu đăng ký tham gia câu lạc bộ THPT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+                    }
+                h1 {
+            text-align: center;
+            color: #1a5f7a;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+                input[type="text"],
+        input[type="date"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 80px;
+            resize: vertical;
+        }
+                                }
+            </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PHIẾU ĐĂNG KÝ THAM GIA CÂU LẠC BỘ</h1>
+        <form id="clubRegistrationForm">
+            <div class="form-group">
+                <label>Họ và tên </label>
+                <input type="text" name="fullName" required>
+            </div>
+
+            <div class="form-group">
+                <label>Lớp </label>
+                <select name="class" required>
+                    <option value="">-- Chọn lớp --</option>
+                    <option value="12A">12A</option>
+                    <option value="12B">12B</option>
+                    <option value="12C">12C</option>
+                    <option value="12D">12D</option>
+                    <option value="12E">12E</option>
+                    <option value="12G">12G</option>
+                    <option value="12H">12H</option>
+                    <option value="12I">12I</option>
+                    <option value="12K">12K</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Ngày tháng năm sinh </label>
+                <input type="date" name="birthDate" required>
+            </div>
+
+            <div class="form-group">
+                <label>Số điện thoại </label>
+                <input type="tel" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label>Địa chỉ </label>
+                <input type="text" name="address" required>
+            </div>
+
+            <div class="form-group">
+                <label>Câu lạc bộ muốn tham gia </label>
+                <select name="club" required>
+                    <option value="">-- Chọn câu lạc bộ --</option>
+                    <option value="english">CLB Tiếng Anh</option>
+                    <option value="science">CLB Khoa học</option>
+                    <option value="informatics">CLB Tin học</option>
+                    <option value="literature">CLB Văn học</option>
+                    <option value="music">CLB Âm nhạc</option>
+                    <option value="sports">CLB Thể thao</option>
+                    <option value="volunteer">CLB Tình nguyện</option>
+                    <option value="arts">CLB Mỹ thuật</option>
+                    <option value="dance">CLB Nhảy</option>
+                    <option value="media">CLB Truyền thông</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Lời nhắn</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Cam kết</label>
+                <div class="note">
+                    - Tham gia đầy đủ các hoạt động của câu lạc bộ<br>
+                    - Tuân thủ nội quy của câu lạc bộ<br>
+                    - Duy trì kết quả học tập tốt song song với hoạt động câu lạc bộ
+                </div>
+            </div>
+
+            <center><button type="submit">Đăng ký tham gia</button></center>
+        </form>
+    </div>
+
+    </body>
+</html>

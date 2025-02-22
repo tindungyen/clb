@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu Lạc Bộ Trường THPT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+                
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 0.1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        .logo h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .main-nav li {
+            margin-left: 20px;
+        }
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+         .category-clubs a:hover {
+            color: #3182ce;
+            text-decoration: underline;
+        }
+                .intro {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+          
+        }
+        .section-title {
+            text-align: center;
+            color: #1e3a8a;
+        }
+        .category-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .category-item {
+            background-color: #edf2f7;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+        .category-clubs li {
+            margin-bottom: 8px;
+        }
+        .category-clubs a {
+            color: #4a5568;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .club-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .club-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+
+         .clubs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .club-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .club-content {
+            padding: 20px;
+        }
+           
+        .btn {
+            display: inline-block;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #2c5282;
+        }
+        .contact-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+         .contact-item {
+            margin-bottom: 15px;
+        }
+         .register-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+         .register-btn:hover {
+          background-color: #edf2f7;
+        }
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="lgtp.jpg" alt="Logo trường">
+                <h1>CLB Trường THPT Trần Phú</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#gt">Trang chủ</a></li>
+                    <li><a href="#ds">Danh sách CLB </a></li>
+                    <li><a href="#nb">Nổi bật</a></li>
+                    <li><a href="#lh">Liên hệ</a></li>
+              
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro container">
+            <br id="gt">
+            <br>
+            <h2 class="section-title">Chào mừng đến với Câu Lạc Bộ Trường THPT Trần Phú</h2>
+            <center><img src="trc1.jpg" alt="THPT Trần phú" width="1450" height="600"  max-width:100%;></center>
+            <p>Bên cạnh việc học tập thì những hoạt động giải trí góp phần giúp các bạn học sinh giải toả những mệt mỏi sau những giờ học căng thẳng. Bởi vậy mà các CLB trong trường đã dần được hình thành. Qua đó tạo sân chơi lành mạnh cho các em sau những giờ học, đồng thời góp phần hình thành kỹ năng sống và nâng cao chất lượng giáo dục.</p>
+            <p>Trường THPT Trần Phú tự hào có nhiều câu lạc bộ đa dạng, giúp học sinh phát triển sở thích, kỹ năng và kết bạn mới. Các CLB được tổ chức và hướng dẫn bởi giáo viên nhiệt tình, mang đến môi trường học tập và vui chơi lành mạnh.</p>
+           <p>Tham gia câu lạc bộ là cơ hội tuyệt vời để bạn:</p>
+            <ul>
+                <li>Phát triển sở thích cá nhân</li>
+                <li>Trau dồi kỹ năng giao tiếp và làm việc nhóm</li>
+                <li>Bổ sung hoạt động ngoại khóa cho hồ sơ du học, xét tuyển đại học</li>
+                <li>Tạo những kỷ niệm đáng nhớ trong thời học sinh</li>
+            </ul>
+        </section>
+
+        <section id="categories" class="club-categories container">
+<br id="ds">
+<br>
+            <h2 class="section-title">Danh sách các Câu Lạc Bộ </h2>
+  <div class="category-list">
+             <div class="category-item">
+                    <h3><i class="fas fa-temperature-high"></i> Tự Nhiên </h3>
+                    <ul class="category-clubs">
+                        <li><a href="#th">CLB Toán học</a></li>
+                        <li><a href="#vl">CLB Vật lý</a></li>
+                        <li><a href="#tth">CLB Tin học</a></li>
+                    </ul>
+                </div>
+
+              <div class="category-item">
+                    <h3><i class="fas fa-book"></i> Xã Hội</h3>
+                    <ul class="category-clubs">
+                        <li><a href="#su">CLB Lịch sử</a></li>
+                        <li><a href="#dia">CLB Địa lí</a></li>
+                    </ul>
+                </div>
+<div class="category-item">
+                    <h3><i class="fas fa-biking"></i> Thể thao</h3>
+                    <ul class="category-clubs">
+                        <li><a href="#bd">CLB Bóng đá</a></li>
+                        <li><a href="#br">CLB Bóng rổ</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+<br id="nb">
+<br>
+
+<section id="clubs" class="container">
+            <h2 class="section-title">Câu lạc bộ nổi bật</h2>
+            <div class="clubs">
+              
+                <div class="club-card">
+                    <div class="club-image" style="background-image: url('clbta.jpg')"></div>
+                    <div class="club-content">
+                        <h3 class="club-title">CLB Tiếng Anh</h3>
+                        <p>Nơi giao lưu, thực hành và nâng cao kỹ năng tiếng Anh thông qua các hoạt động thú vị như hội thoại, trò chơi, xem phim và tổ chức sự kiện văn hóa.</p>
+                        <a href="clbta.html" class="btn">Chi tiết</a>
+                    </div>
+                </div>
+
+
+                <div class="club-card">
+                    <div class="club-image" style="background-image: url('clbhhh.jpg')"></div>
+                    <div class="club-content">
+                        <h3 class="club-title">CLB Hóa học</h3>
+                        <p>Bạn có đam mê với những phản ứng hóa học kỳ diệu? Bạn muốn khám phá thế giới của các nguyên tố và hợp chất? Hãy tham gia Câu lạc bộ Hóa học – nơi hội tụ những bạn trẻ yêu thích bộ môn Khoa học này!</p>
+                        <a href="clbhh.html" class="btn">Chi tiết</a>
+                    </div>
+                </div>
+
+
+                <div class="club-card">
+                    <div class="club-image" style="background-image: url('clbvh.jpg')"></div>
+                    <div class="club-content">
+                        <h3 class="club-title">CLB Văn học</h3>
+                        <p>Câu lạc bộ văn học là nơi tập hợp những người yêu thích văn học, cùng nhau chia sẻ, thảo luận và tìm hiểu về các tác phẩm, tác giả, cũng như các vấn đề liên quan đến văn học.</p>
+                        <a href="clbvh.html" class="btn">Chi tiết</a>
+                    </div>
+                </div>
+
+
+                <div class="club-card">
+                    <div class="club-image" style="background-image: url('clbbc.jpg')"></div>
+                    <div class="club-content">
+                        <h3 class="club-title">CLB Bóng chuyền</h3>
+                        <p>Nơi rèn luyện kỹ năng chơi bóng chuyền, phát triển thể chất và tinh thần đồng đội. CLB thường xuyên tổ chức các trận đấu giao hữu và tham gia giải đấu học sinh.</p>
+                        <a href="clbbc.html" class="btn">Chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="intro" class="intro container">
+<br id="th">
+<br>
+            <h2 class="section-title">Câu lạc bộ Toán học </h2>
+            <center><img src="clbth.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>CLB Toán Phổ Thông  được sáng lập với mong muốn tạo ra một môi trường học Toán thú vị, bổ ích, đem đến những trải nghiệm tích cực cho học sinh qua đó truyền cảm hứng say mê Toán học một cách tự nhiên.
+Tại Câu Lạc Bộ các em học sinh sẽ được tiếp cận Toán học theo cách tự nhiên nhất, các khái niệm, công thức toán học sẽ được giải thích cụ thể, minh hoạ trực quan và gần gũi qua đó giúp người học nắm được bản chất, tự tin và yêu thích tìm tòi với Toán.</p>
+<br id="vl">
+<br>
+<h2 class="section-title">Câu lạc bộ Vật lí </h2>
+            <center><img src="clbvl.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Mục đích thành lập câu lạc bộ vật lý là tạo môi trường học tập và khám phá, phát triển kỹ năng thực hành, tăng cường sự hiểu biết về vật lý, tạo cơ hội cho các thành viên thể hiện tài năng, tăng cường sự hợp tác và giao lưu, tổ chức các hoạt động ngoại khóa và tạo môi trường thân thiện và hỗ trợ.</p>
+<br id="tth">
+<br>
+<h2 class="section-title">Câu lạc bộ Tin học </h2>
+            <center><img src="clbtth.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Tin”Công nghệ và sáng tạo”<br>
+- Tổ chức các buổi học và thảo luận về các chủ đề liên quan đến công nghệ thông tin.<br>
+- Tạo ra các dự án và sản phẩm công nghệ để giúp các thành viên phát triển kỹ năng và kiến thức.<br>
+- Tổ chức các cuộc thi và giải đấu lập trình để giúp các thành viên thể hiện tài năng và sáng tạo.<br>
+- Tạo ra các cơ hội cho các thành viên để họ có thể học hỏi từ các chuyên gia và doanh nghiệp trong lĩnh vực công nghệ thông tin.
+ </p>
+<br id="vh"> 
+<br>
+<br id="su">
+<br>
+<h2 class="section-title">Câu lạc bộ Lịch sử </h2>
+            <center><img src="clbls.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Lịch sử” Học từ quá khứ-xây dựng tương lai”
+Học tập và khám phá về lịch sử và văn hóa.Phát triển kỹ năng nghiên cứu và phân tích.Tăng cường sự hiểu biết về các thời kỳ lịch sử.Thể hiện tài năng và sáng tạo trong nghiên cứu và trình bày.Tăng cường sự hợp tác và giao lưu.Tổ chức các hoạt động ngoại khóa.Tạo môi trường thân thiện và hỗ trợ.<br>
+Mục tiêu của CLB Lịch sử là giúp các thành viên phát triển kỹ năng và kiến thức về lịch sử, đồng thời tạo môi trường học tập và khám phá thú vị</p>
+</p>
+<br id="dia">
+<br>
+ <h2 class="section-title">Câu lạc bộ Địa lí </h2>
+            <center><img src="clvdl.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Địa "Người hùng atlat"<br>
+Tìm hiểu và khám phá về các hiện tượng địa lý.Phát triển kỹ năng nghiên cứu và phân tích về địa lý.Tăng cường sự hiểu biết về các vùng miền và quốc gia trên thế giới.Thể hiện tài năng và sáng tạo trong nghiên cứu và trình bày về địa lý.<br>
+Tổ chức các hoạt động ngoại khóa như tham quan các địa điểm địa lý quan trọng.Tạo môi trường thân thiện và hỗ trợ để giúp các thành viên phát triển kỹ năng và kiến thức.</p>
+<br id="bd">
+<br>
+ <h2 class="section-title">Câu lạc bộ Bóng đá </h2>
+            <center><img src="clbbd.jpg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Câu lạc bộ bóng đá của trường là một nơi tuyệt vời để bạn thể hiện niềm đam mê với trái bóng tròn, rèn luyện sức khỏe và kết bạn với những người có cùng sở thích<br> Mục tiêu hoạt động:<br>
+
+Phát triển kỹ năng: Nâng cao trình độ chơi bóng đá của các thành viên thông qua các buổi tập luyện bài bản và các trận đấu giao hữu.
+Rèn luyện thể chất: Cải thiện sức khỏe, sự dẻo dai và tinh thần đồng đội cho các thành viên.
+Tạo sân chơi lành mạnh: Tạo ra một môi trường vui vẻ, thân thiện để các bạn học sinh có thể giao lưu, học hỏi và giải tỏa căng thẳng sau những giờ học.</p>
+<br id="br">
+<br>
+ <h2 class="section-title">Câu lạc bộ Bóng rổ </h2>
+            <center><img src="clbbr.jpeg" alt="THPT Trần phú" width="800" height="400"  max-width:100%;></center>
+            <p>Câu lạc bộ bóng rổ của trường là một trong những câu lạc bộ thể thao sôi động và thu hút nhiều học sinh tham gia. Được thành lập nhằm tạo sân chơi lành mạnh, rèn luyện thể lực và kỹ năng bóng rổ, câu lạc bộ thường xuyên tổ chức các buổi tập luyện, giao lưu và thi đấu nội bộ. <br>Dưới sự hướng dẫn của các huấn luyện viên giàu kinh nghiệm, thành viên không chỉ nâng cao kỹ thuật mà còn học được tinh thần đồng đội, ý chí kiên trì. Bên cạnh đó, câu lạc bộ còn tham gia nhiều giải đấu cấp trường và liên trường, mang về nhiều thành tích đáng tự hào. Nếu bạn đam mê bóng rổ và muốn rèn luyện bản thân, hãy gia nhập ngay để cùng trải nghiệm môi trường thể thao đầy năng động này!</p>
+        </section>
+<br id="lh">
+<br>
+
+                <section class="contact-info container">
+            <h2 class="section-title">Thông tin liên hệ</h2>
+            <div class="contact-grid">
+                <div>
+                    <h3>Văn phòng Đoàn - Hội</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i> Phòng Đoàn Trường THPT Trần Phú
+                   </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i> Điện thoại: 0383894446
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i> Email: caulacbo@thpttranphus.edu.vn
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-facebook"></i><a href="https://www.facebook.com/share/16APoS2RXi/"> Link FB:https://www.facebook.com/share/16APoS2RXi/</a>
+                    </div>
+
+                </div>
+                <div>
+                    <h3>Giờ tiếp nhận đăng ký</h3>
+                    <p>Giờ ra chơi giữa các tiết học<br>
+                    Sáng: 8h35 - 9h<br>
+                    Chiều: 2h-3h</p>
+                    <p><i>Thông báo: Hạn đăng ký tham gia CLB đến hết ngày 20/9/2025</i></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="register-section container">
+            <div class="register-content">
+                <h2>Đăng ký tham gia</h2>
+                <p>Bạn muốn tham gia một trong những câu lạc bộ của trường? Hãy đăng ký ngay để không bỏ lỡ cơ hội phát triển bản thân và kết bạn mới!</p>
+                <a href="dangki.html" class="btn register-btn">Đăng ký online</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> 2025 - Trang Câu Lạc Bộ Trường THPT Trần Phú </p>
+            <p>Địa chỉ: Chi Đức, Tuy An, Phú Yên</p>
+        </div>
+    </footer>
+</body>
+</html>
